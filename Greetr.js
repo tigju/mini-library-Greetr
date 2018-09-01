@@ -6,14 +6,15 @@
     }
     
     // hidden within the scope of the IIFE and never directly accessible
-    var supportedLangs = ['en', 'es', 'ru', 'ge'];
+    var supportedLangs = ['en', 'es', 'ru', 'ge', 'fr'];
     
     // informal greetings
     var greetings = {
         en: 'Hello',
         es: 'Hola',
         ru: 'Привет',
-        ge: 'Hallo'
+        ge: 'Hallo',
+        fr: 'Bonjour'
     };
     
     // formal greetings
@@ -21,7 +22,8 @@
         en: 'Greetings',
         es: 'Saludos',
         ru: 'Здравствуйте',
-        ge: 'Schöne Grüße'
+        ge: 'Schöne Grüße',
+        fr: 'Salutations'
     };
     
     // logger messages
@@ -29,7 +31,8 @@
         en: 'Logged in',
         es: 'Inicio sesion',
         ru: 'Вошли',
-        ge: 'Eingeloggt'
+        ge: 'Eingeloggt',
+        fr: 'Connecté'
     };
     
     // prototype holds methods (to save memory space)
